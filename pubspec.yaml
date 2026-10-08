@@ -1,0 +1,56 @@
+name: agro_guardian
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  tflite:
+    path: packages/tflite
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  shared_preferences: ^2.3.3
+  geolocator: ^13.0.2
+  http: ^1.2.2
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  intl: ^0.20.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logop.png
+    - assets/apple.png
+    - assets/grape.png
+    - assets/corn.png
+    - assets/apple_model.tflite
+    - assets/apple.txt
+    - assets/grapes_model.tflite
+    - assets/grapes.txt
+    - assets/corn_model.tflite
+    - assets/corn.txt
+    - assets/gate_model.tflite
+    - assets/gate.txt
+    - assets/bgg.jpg
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: PlayfairDisplaySC
+      fonts:
+        - asset: fonts/PlayfairDisplaySC-Italic.ttf
+
+    - family: TiltNeon
+      fonts:
+        - asset: fonts/TiltNeon-Regular.ttf
