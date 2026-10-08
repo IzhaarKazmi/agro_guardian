@@ -1,16 +1,20 @@
-# agro_guardian
+# Agro Guardian
 
-A new Flutter project.
+A Flutter app for plant disease detection using TensorFlow Lite.
 
-## Getting Started
+## Features
+- Scan plant leaves to detect diseases (Apple, Grapes, Corn)
+- Weather insights for crop management
+- Scan history with offline storage
+- English and Urdu localization
+- Firebase authentication
 
-This project is a starting point for a Flutter application.
+## Setup
+1. Clone the repository
+2. Run `flutter pub get`
+3. Add your `google-services.json` to `android/app/`
+4. Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements
+- Flutter SDK >=3.2.0
+- Firebase project with Authentication enabled
